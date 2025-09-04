@@ -39,7 +39,7 @@ export async function POST(request: Request) {
     return Response.json({ summary }, { status: 200 });
   } catch (error) {
     console.log(error);
-    return new Response(JSON.stringify(error), { status: 500 });
+    return Response.json({ error }, { status: 500 });
   }
 }
 

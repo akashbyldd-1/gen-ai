@@ -4,7 +4,7 @@ const ChatbotTemplate = () => {
   return (
     <>
       <div className="flex flex-col h-screen bg-gray-50">
-        {/* Header */}
+        {/* Header -- */}
         <header className="flex items-center justify-between bg-white shadow-md px-6 py-4">
           <h1 className="text-xl font-semibold text-gray-800">Chat Support</h1>
           <button>
@@ -12,7 +12,7 @@ const ChatbotTemplate = () => {
           </button>
         </header>
 
-        {/* Main chat area */}
+        {/* Main chat area --  */}
         <main className="flex-1 flex flex-col p-6 overflow-y-auto space-y-4">
           {/* Bot message */}
           <div className="flex justify-start">
@@ -21,14 +21,14 @@ const ChatbotTemplate = () => {
             </div>
           </div>
 
-          {/* User message */}
+          {/* User message -- */}
           <div className="flex justify-end">
             <div className="bg-blue-600 text-white px-4 py-2 rounded-lg max-w-xl text-sm">
               Hello! I have a question.
             </div>
           </div>
 
-          {/* More example messages */}
+          {/* More example messages -- */}
           <div className="flex justify-start">
             <div className="bg-gray-100 text-gray-800 px-4 py-2 rounded-lg max-w-xl text-sm">
               Sure! Please tell me your question.
@@ -36,7 +36,7 @@ const ChatbotTemplate = () => {
           </div>
         </main>
 
-        {/* Input area */}
+        {/* Input area ---- */}
         <footer className="bg-white border-t border-gray-200 p-4 flex items-center space-x-3">
           <input
             type="text"
