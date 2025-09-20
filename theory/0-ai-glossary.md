@@ -4,17 +4,17 @@
 ### **A**
 
 * **Agent (AI Agent)**:
-  A system built around an LLM that can make decisions, call tools, and handle multi-step tasks automatically. Example: A voice agent asking questions, processing answers, and storing them.
+  A system built around an LLM that can make decisions, call tools, and **handle multi-step tasks automatically**. Example: A voice agent asking questions, processing answers, and storing them.
 
 ---
 
 ### **C**
 
 * **Context Window**:
-  The maximum amount of text an LLM can see at one time while generating responses.
+  The **maximum amount of text** an LLM can see at one time while generating responses.
 
 * **Conversation Memory**:
-  Ability to remember past interactions so the AI doesn’t forget what was said earlier. MCP allows external memory systems for this.
+  Ability to **remember past interactions** so the AI doesn’t forget what was said earlier. MCP allows external memory systems for this.
 
 * **ChatBot**
 
@@ -25,7 +25,7 @@
 ### **E**
 
 * **Embedding**
-  An embedding is a numerical representation of data, such as text, images, or videos, that captures relationships between different inputs. Embeddings are generated during the training phase of a model by converting text, image, and video into arrays of floating point numbers that are called vectors.
+  An embedding is a **numerical representation of data**, such as text, images, or videos, that captures relationships between different inputs. Embeddings are generated during the **training phase** of a model by converting text, image, and video into arrays of floating point numbers that are called vectors.
 
 ---
 
@@ -47,7 +47,7 @@
 ### **L**
 
 * **LangChain**:
-  A framework to build AI apps with features like memory, agents, and chaining multiple tools/models together.
+  A framework to build AI apps with features like memory, agents, and chaining multiple tools/models together. Ready made building blocks for llm.
 
 * **LLM (Large Language Model)**:
   A deep learning model like Claude or GPT that understands and generates text.
